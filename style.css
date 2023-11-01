@@ -1,0 +1,56 @@
+.{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#card{
+    height: 400px;
+    width: 400px;
+    background-color:white;
+    border-radius: 20px;
+    padding: 10px 10px;
+    text-align: center;
+}
+body{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  background-color: bisque;
+}
+#card img{
+    height: 55%;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#card h1{
+    font-size: 25px;
+    margin-top: 10px ;
+    margin-bottom: 0px;
+    font-weight: 800;
+}
+#card h5{
+    
+    color: crimson;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+#card button{
+
+ background-color: lightblue;
+    color: rgb(50, 30, 3);
+    font-weight: 650;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    font-size: large;
+}
